@@ -8,7 +8,9 @@ docker build -t hacper/preboot_builder:latest .
 
 ## 使用
 
-创建容器，/e/workspace/preboot/preboot_boot2 只是示例，需要修改为自己电脑上的 preboot 源码路径
+创建容器，/e/workspace/preboot/preboot_boot2 只是示例，需要修改为自己电脑上的 preboot 源码路径。
+
+preboot_boot2目录下的 CRANEL CRANEM 分别放置对应的 preboot 源码，将 preboot_boot2 目录挂载到容器中。
 
 ```bash
 docker pull hacper/preboot_builder
